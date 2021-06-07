@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/shivampatel215.github.io/static/css/main.aae14f9a.chunk.css",
-    "main.js": "/shivampatel215.github.io/static/js/main.d375c4de.chunk.js",
-    "main.js.map": "/shivampatel215.github.io/static/js/main.d375c4de.chunk.js.map",
-    "runtime-main.js": "/shivampatel215.github.io/static/js/runtime-main.5abfecdf.js",
-    "runtime-main.js.map": "/shivampatel215.github.io/static/js/runtime-main.5abfecdf.js.map",
-    "static/js/2.9ecc6917.chunk.js": "/shivampatel215.github.io/static/js/2.9ecc6917.chunk.js",
-    "static/js/2.9ecc6917.chunk.js.map": "/shivampatel215.github.io/static/js/2.9ecc6917.chunk.js.map",
-    "static/js/3.99b7f917.chunk.js": "/shivampatel215.github.io/static/js/3.99b7f917.chunk.js",
-    "static/js/3.99b7f917.chunk.js.map": "/shivampatel215.github.io/static/js/3.99b7f917.chunk.js.map",
-    "index.html": "/shivampatel215.github.io/index.html",
-    "static/css/main.aae14f9a.chunk.css.map": "/shivampatel215.github.io/static/css/main.aae14f9a.chunk.css.map",
-    "static/js/2.9ecc6917.chunk.js.LICENSE.txt": "/shivampatel215.github.io/static/js/2.9ecc6917.chunk.js.LICENSE.txt",
-    "static/media/Shivam Resume 2021.bcdbe37a.pdf": "/shivampatel215.github.io/static/media/Shivam Resume 2021.bcdbe37a.pdf",
-    "static/media/logo.6ce24c58.svg": "/shivampatel215.github.io/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.aae14f9a.chunk.css",
+    "main.js": "/static/js/main.8a824c8d.chunk.js",
+    "main.js.map": "/static/js/main.8a824c8d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b500ef76.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b500ef76.js.map",
+    "static/js/2.9ecc6917.chunk.js": "/static/js/2.9ecc6917.chunk.js",
+    "static/js/2.9ecc6917.chunk.js.map": "/static/js/2.9ecc6917.chunk.js.map",
+    "static/js/3.99b7f917.chunk.js": "/static/js/3.99b7f917.chunk.js",
+    "static/js/3.99b7f917.chunk.js.map": "/static/js/3.99b7f917.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.aae14f9a.chunk.css.map": "/static/css/main.aae14f9a.chunk.css.map",
+    "static/js/2.9ecc6917.chunk.js.LICENSE.txt": "/static/js/2.9ecc6917.chunk.js.LICENSE.txt",
+    "static/media/Shivam Resume 2021.bcdbe37a.pdf": "/static/media/Shivam Resume 2021.bcdbe37a.pdf",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5abfecdf.js",
+    "static/js/runtime-main.b500ef76.js",
     "static/js/2.9ecc6917.chunk.js",
     "static/css/main.aae14f9a.chunk.css",
-    "static/js/main.d375c4de.chunk.js"
+    "static/js/main.8a824c8d.chunk.js"
   ]
 }
