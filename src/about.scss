@@ -1,0 +1,37 @@
+.about-me p{
+    padding-bottom: 15px;
+}
+
+.about-me-paragraphs {
+    width: 400px;
+    margin-right: 50px;
+    a{
+        text-decoration: underline;
+        color:var(--theme-page-text);
+        font-weight: bold;
+        &:hover{
+            text-decoration-color: #c5a3e3;
+        
+        }
+    }
+}
+.about-me img{
+    width: 40%;
+    height: 40%;
+
+}
+
+.about-me{
+    display: flex;
+}
+
+.light {
+    --theme-page-background: #FFF;
+    --theme-page-text: #111;
+}
+
+.dark {
+    
+    --theme-page-background: #111;
+    --theme-page-text: #FFF;
+}

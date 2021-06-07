@@ -1,0 +1,67 @@
+
+@import "./themes.scss";
+
+.content-page {
+  margin-top: 175px;
+  /* width: 1000px; */
+  // padding: 0px 200px;
+  padding-left:300px;
+  padding-right: 150px;
+  // padding-left: 200px;
+}
+.title {
+  min-height: 100vh;
+}
+.title h2{
+  font-size: 8em;
+  margin:0px 0px;
+  font-weight: 150;
+  color: var(--theme-title-color);
+
+
+}
+.title p{
+  // color: lightgray;
+  margin:0px;
+}
+
+.portfolio {
+  // margin-top: 500px;
+  min-height: 100vh;
+}
+.portfolio h2{
+  // font-color: lightgray;
+
+}
+.portfolio-period{
+  color: #c5a3e3;
+  margin-left:2.5px;
+
+
+}
+
+.App {
+  background: var(--theme-page-background) !important;
+  color: var(--theme-page-text) !important;
+  // color: var(tits-dicks);
+  height: 100%;
+  transition: .5s !important;
+}
+
+.about-me-app {
+  min-height:100vh;
+
+}
+
+.contact-me-app {
+  min-height:75vh;
+}
+
+.footer {
+  justify-content: center;
+  /* margin-bottom: 0; */
+  text-align: center;
+  display: block;
+  padding-bottom: 50px;
+}
+
