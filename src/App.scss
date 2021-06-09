@@ -3,14 +3,12 @@
 
 .content-page {
   margin-top: 175px;
-  /* width: 1000px; */
-  // padding: 0px 200px;
-  padding-left:300px;
-  padding-right: 150px;
-  // padding-left: 200px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+
 }
 .title {
-  min-height: 100vh;
+  min-height: calc(100vh - 63px);
 }
 .title h2{
   font-size: 8em;
@@ -21,12 +19,10 @@
 
 }
 .title p{
-  // color: lightgray;
   margin:0px;
 }
 
 .portfolio {
-  // margin-top: 500px;
   min-height: 100vh;
 }
 .portfolio h2{
@@ -36,8 +32,6 @@
 .portfolio-period{
   color: #c5a3e3;
   margin-left:2.5px;
-
-
 }
 
 .App {
@@ -59,9 +53,39 @@
 
 .footer {
   justify-content: center;
-  /* margin-bottom: 0; */
   text-align: center;
   display: block;
   padding-bottom: 50px;
 }
+
+@media (max-width: 620px) {
+  .title h2{
+    font-size: 4em;
+    font-weight: 250;
+  }
+  .title p{
+    font-size: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+  
+}
+
+@media (max-width: 900px) {
+  .content-page{
+    margin-top: 0;
+    text-align: center;
+
+  }
+  .title {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+}
+
+
 

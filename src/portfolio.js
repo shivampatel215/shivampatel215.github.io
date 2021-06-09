@@ -4,7 +4,6 @@ import {portfolioData} from './data/constants.js';
 import './portfolio.scss';
 
 function portfolio() {
-    // const data = portfolioData;
     return (
         <div className="projects">
         {portfolioData.map((project) => (

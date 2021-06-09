@@ -21,42 +21,37 @@ function App() {
 
   return (
     <div className={`App ${theme}`}>
-    <Nav toggler={themeToggler}/>
-    <Social />
-    <div className="content-page">
-      <div className="title">
-        <p>Hi my name is,</p>
-        <h2>shivam .</h2>
-        <p>I am a San Francisco based Full-Stack engineer who
-          <br></br>
-          specializes in building exceptional web applications.
-        </p>
+      <Nav toggler={themeToggler}/>
+      <Social />
+      <div className="content-page">
+        <div className="title">
+          <p>Hi my name is,</p>
+          <h2>shivam.</h2>
+          <p>I am a San Francisco based Full-Stack engineer who
+            <br></br>
+            specializes in building exceptional web applications.
+          </p>
+        </div>
+
+
+        <div className="portfolio">
+          <h2>Portfolio<span className="portfolio-period">.</span></h2>
+          <Portfolio/>
+
+        </div>
+        <div className="about-me-app">
+          <h2>About Me<span className="portfolio-period">.</span></h2>
+          <About/>
+
+        </div>
+
+        <div className="footer">
+          <span>Designed and Built by Shivam Patel</span>
+        </div>
+
+
       </div>
-
-
-      <div className="portfolio">
-        <h2>Portfolio<span className="portfolio-period">.</span></h2>
-        <Portfolio/>
-
-      </div>
-      <div className="about-me-app">
-        <h2>About Me<span className="portfolio-period">.</span></h2>
-        <About/>
-
-      </div>
-
-      {/* <div className="contact-me-app">
-        <h2>Get in Touch<span className="portfolio-period">.</span></h2>
-        <Contact />
-      </div> */}
-
-      <div className="footer">
-        <span>Designed and Built by Shivam Patel</span>
-      </div>
-
-
-    </div>
-    
+      
 
     </div>
     

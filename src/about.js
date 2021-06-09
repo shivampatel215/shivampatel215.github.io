@@ -11,7 +11,7 @@ function about() {
                 to <a href="https://letterboxd.com/shivamp/" target="_blank">watch</a> tonight. 
                     But hey, at least I finished this website. I’m always open to hearing about exciting new projects to work on so feel free to reach out, or just say hello!</p>
             </div>
-            <img src={`${process.env.PUBLIC_URL}/images/profile.png`} className="profile-photo" alt="profile"></img>
+            <img src={`${process.env.PUBLIC_URL}/images/profile.png`} alt="profile"></img>
         </div>
     )
 }

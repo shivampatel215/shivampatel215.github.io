@@ -1,12 +1,12 @@
+*:hover{
+  cursor: pointer;
+}
 .links {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
     margin-right: 15px;
-
-    
-
 }
 
 
@@ -28,9 +28,7 @@
 .resume-button:hover{
     transition: .2s ease-in-out;
     transform: scale(1.2);
-    border-bottom: 2.5px solid #c5a3e3;
-
-    
+    border-bottom: 2.5px solid #c5a3e3;    
 }
 
 .navbar {
@@ -41,9 +39,52 @@
     left: 0;
     margin: 0px 50px;
 }
+
+.navbar--mobile {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  background-color: var(--theme-page-background);
+  z-index: 9999;
+  input{
+    position: fixed;
+    right: 5px;
+    top: 10px;
+  }
+  h1{
+    text-align: center;
+    margin-top: -10px;
+  }
+}
+
+
+.navbar--mobile_menu {
+  display: none;
+  position: absolute;
+  background-color: var(--theme-page-background);
+  height: 100vh;
+  width: 100vw;
+  transform: translateX(-100vw);
+  margin-top: 50px;
+  transition: all 500ms ease-out;
+}
+
+.open {
+  transform: translateX(0);
+  display: flex;
+  justify-content: center;
+
+  ul{
+    flex-direction: column;
+    display: flex;
+    margin-top: 40vw;
+    font-size: 2em; 
+
+  }
+}
+
 .logo {
-    // padding-left: 15px;
-    // color: lightgray;
     font-weight: 300;
 
 }
@@ -130,6 +171,20 @@ h1{
         calc(var(--offset-diagonal) * -1) var(--offset-diagonal) 0 var(--ray-size),
         var(--offset-diagonal) calc(var(--offset-diagonal) * -1) 0 var(--ray-size),
       ;
+    }
+  }
+
+  @media (max-width: 620px) {
+    .navbar {
+      display: none;
+    }
+
+    .navbar--mobile {
+      display: initial;
+    }
+
+    .navbar--mobile_menu {
+      display: initial;
     }
   }
 
