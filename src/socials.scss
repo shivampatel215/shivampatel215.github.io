@@ -84,3 +84,12 @@ i {
     }
 }
 
+@media (max-width: 600px) {
+    .social-nav-links{
+        left: 10px;
+    }
+    .email-nav-right{
+        right: 10px;
+    }
+}
+
