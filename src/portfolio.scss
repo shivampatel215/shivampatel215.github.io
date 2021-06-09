@@ -1,0 +1,13 @@
+.projects {
+    display: flex;
+    /* padding-right: 30px; */
+    // width: 1200px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+    .projects{
+        justify-content: center;
+    }
+
+}
