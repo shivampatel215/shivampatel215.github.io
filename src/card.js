@@ -7,7 +7,7 @@ function card(props) {
     return (
     
             <div class="container">
-                <div class="card">
+                <div class={`card ${props.color}`}>
                     <div class="imgBx">
                     <img src={`${process.env.PUBLIC_URL}/images/${props.imgsrc}`} />
                     </div>

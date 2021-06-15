@@ -7,7 +7,7 @@ function portfolio() {
     return (
         <div className="projects">
         {portfolioData.map((project) => (
-        <Card title={project.title} description={project.description} websitelink={project.websitelink} imgsrc={project.imgsrc} />
+        <Card title={project.title} description={project.description} websitelink={project.websitelink} imgsrc={project.imgsrc} color={project.color} />
       ))} 
         </div>
     )
