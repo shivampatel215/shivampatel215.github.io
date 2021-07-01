@@ -9,8 +9,6 @@ import Contact from './contactme.js';
 import Social from './socials.js'
 
 function App() {
-  // const data = portfolioData;
-
   const [theme, setTheme] = useState('dark');
 
   const themeToggler = () => {
