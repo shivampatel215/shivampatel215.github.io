@@ -25,7 +25,7 @@ function App() {
         <div className="title">
           <p>Hi my name is,</p>
           <h2>shivam.</h2>
-          <p>I am a San Francisco based Full-Stack engineer who
+          <p>I'm an NYC based Full-Stack engineer who
             <br></br>
             specializes in building exceptional web applications.
           </p>

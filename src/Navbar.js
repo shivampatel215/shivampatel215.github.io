@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.scss'
-import resume from "./data/Shivam Resume 2021.pdf"
+import resume from "./data/Resume2023Auto3ff.pdf"
 import{Link} from "react-scroll";
 // import { motion } from "framer-motion";
 import {useState} from 'react';
